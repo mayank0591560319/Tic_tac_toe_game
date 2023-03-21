@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
             {0, 4, 8}, {2, 4, 6}};
     private Object View;
 
-
     public void playerTap(View view) {
         ImageView img = (ImageView) view;
         int tappedImage = Integer.parseInt(img.getTag().toString());
